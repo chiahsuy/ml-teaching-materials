@@ -1,2 +1,9 @@
 # ml-teaching-materials
 A curated repository of machine learning and data science teaching materials
+
+## Visual Diagnostics for More Informed Machine Learning
+Machine learning is ultimately a search for the best combination of features, algorithm, and hyperparameters that result in the best performing model. Oftentimes, this leads us to stay in our algorithmic comfort zones, or to resort to automated processes such as grid searches and random walks. Whether we stick to what we know or try many combinations, we are sometimes left wondering if we have actually succeeded.
+
+By enhancing model selection with visual diagnostics, data scientists can inject human guidance to steer the search process. Visualizing feature transformations, algorithmic behavior, cross-validation methods, and model performance allows us a peek into the high dimensional realm that our models operate. As we continue to tune our models, trying to minimize both bias and variance, these glimpses allow us to be more strategic in our choices. The result is more effective modeling, speedier results, and greater understanding of underlying processes.
+
+Visualization is an integral part of the data science workflow, but visual diagnostics are directly tied to machine learning transformers and models. The [Yellowbrick library](http://www.scikit-yb.org/en/latest/) extends the [scikit-learn](https://scikit-learn.org/stable/) API providing a Visualizer object, an estimator that learns from data and produces a visualization as a result. In this tutorial, we will explore feature visualizers, visualizers for classification, clustering, and regression, as well as model analysis visualizers. We'll work through several examples and show how visual diagnostics steer model selection, making machine learning more informed, and more effective.
